@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>trafficlight</title>
+</head>
+
+<body>
+    <div class="light">
+        <div id="red" onclick="red()">
+            <img src="red.jpg" alt="" srcset="">
+        </div>
+        <div id="green" onclick="green()">
+
+            <img src="green.jpg" alt="" srcset="">
+
+        </div>
+        <div id="yellow" onclick="yellow()">
+            <img src="yellow.jpg" alt="" srcset="">
+        </div>
+    </div>
+
+
+
+
+
+    <script>
+        var x = prompt("enter the number which you want? 1 for red 2 for green otherwise else")
+        if (x == 1) {
+            red();
+        }
+        else if (x == 2) {
+            green();
+        }
+        else {
+            yellow();
+        }
+        function red() {
+            console.log(" red light! hello people need to stop")
+        }
+        function green() {
+            console.log(" green light :people are moving")
+        }
+        function yellow() {
+            console.log(" 'yellow'anybody need to move slowly")
+        }
+    </script>
+</body>
+
+
+</html>

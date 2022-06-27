@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.light{
+    display: flex;
+    width:500px;
+    height: 100vh;
+ justify-content: space-around;
+ align-items: center;
+ 
+    
+}
+
+#red,#green,#yellow {
+    width: 100px;
+    height: 200px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
